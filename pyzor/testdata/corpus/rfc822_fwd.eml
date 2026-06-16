@@ -1,0 +1,15 @@
+Content-Type: multipart/mixed; boundary=outer
+
+--outer
+Content-Type: text/plain
+
+Please see the forwarded message attached below for details.
+--outer
+Content-Type: message/rfc822
+
+From: alice@example.com
+Subject: Forwarded report
+Content-Type: text/plain
+
+This embedded forwarded message body must be digested by walking it.
+--outer--

@@ -1,0 +1,17 @@
+From: a@example.com
+Subject: multipart alternative test
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="BOUND1"
+
+--BOUND1
+Content-Type: text/plain; charset=us-ascii
+
+Plain text version of this newsletter message
+With several lines to digest properly here
+And a third line for good measure today
+--BOUND1
+Content-Type: text/html; charset=us-ascii
+
+<html><body><p>HTML version of newsletter message here</p>
+<p>With several readable lines inside the markup</p></body></html>
+--BOUND1--

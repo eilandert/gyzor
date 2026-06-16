@@ -1,0 +1,10 @@
+From: a@example.com
+Subject: html newsletter edition
+Content-Type: text/html; charset=us-ascii
+
+<html><head><style>.x{color:red}</style></head>
+<body><h1>Welcome to our newsletter today</h1>
+<script>var tracking = 12345;</script>
+<p>Here is some genuine content for you to read carefully</p>
+<p>Another paragraph with more readable words here</p>
+</body></html>

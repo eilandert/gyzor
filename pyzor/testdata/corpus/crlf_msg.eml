@@ -1,0 +1,6 @@
+From: a@example.com
+Subject: crlf line endings test
+
+First line with windows endings here
+Second line also with carriage returns
+Third readable line for digest computation

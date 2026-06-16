@@ -1,0 +1,9 @@
+From: a@example.com
+Subject: quoted printable body test
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: quoted-printable
+
+This message uses quoted=2Dprintable encoding here
+Special characters like =E9 and =E8 appear inline
+The line continues with a soft break right =
+here in the middle of a sentence today

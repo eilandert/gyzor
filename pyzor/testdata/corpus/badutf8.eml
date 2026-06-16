@@ -1,0 +1,4 @@
+Subject: t2
+Content-Type: text/plain; charset=utf-8
+
+bad utf8 ÿş bytes inside this readable line here

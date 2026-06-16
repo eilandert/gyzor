@@ -1,0 +1,18 @@
+From: a@example.com
+Subject: invoice attached please review
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="MIX1"
+
+--MIX1
+Content-Type: text/plain; charset=us-ascii
+
+Please find the attached invoice document
+Payment is due within thirty calendar days
+Contact our billing department with questions
+--MIX1
+Content-Type: application/octet-stream; name="invoice.bin"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice.bin"
+
+VGhpcyBpcyBub3QgcmVhbGx5IGEgYmluYXJ5IGZpbGUgYnV0IGJhc2U2NCB0ZXh0Lg==
+--MIX1--
