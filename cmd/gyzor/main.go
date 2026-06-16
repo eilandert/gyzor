@@ -1,6 +1,7 @@
 // Command gyzor is a Go reimplementation of the pyzor client (check / report /
-// revoke). The core lives in package pyzor, imported in-process by the rspamd
-// shim; this command is the standalone CLI front-end.
+// revoke). The core lives in package pyzor, which the gozer backend links
+// in-process behind one HTTP endpoint for rspamd; this command is the standalone
+// CLI front-end.
 //
 // CLI usage (message on stdin, never touches disk):
 //

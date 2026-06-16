@@ -1,5 +1,9 @@
 # gyzor
 
+[![CI](https://github.com/eilandert/gyzor/actions/workflows/ci.yml/badge.svg)](https://github.com/eilandert/gyzor/actions/workflows/ci.yml)
+[![Release](https://github.com/eilandert/gyzor/actions/workflows/release.yml/badge.svg)](https://github.com/eilandert/gyzor/actions/workflows/release.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/eilandert/gyzor.svg)](https://pkg.go.dev/github.com/eilandert/gyzor)
+
 > A fast, dependency-light **Go [pyzor](https://github.com/SpamExperts/pyzor)
 > client** — `check` / `report` / `revoke` — for streaming pipelines, with zero
 > on-disk message handling.
