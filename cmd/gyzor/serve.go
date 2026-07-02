@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/eilandert/gyzor/pyzor"
+	"github.com/myguard-labs/gyzor/pyzor"
 )
 
 // maxBody bounds a message read from an HTTP request body (pyzor messages are

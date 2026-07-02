@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eilandert/gyzor/pyzor"
+	"github.com/myguard-labs/gyzor/pyzor"
 )
 
 // fakePyzor is a local UDP pyzor server for serve tests: it echoes the request

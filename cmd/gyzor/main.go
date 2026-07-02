@@ -38,12 +38,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eilandert/gyzor/pyzor"
+	"github.com/myguard-labs/gyzor/pyzor"
 )
 
 var version = "dev"
 
-const repoURL = "https://github.com/eilandert/gyzor"
+const repoURL = "https://github.com/myguard-labs/gyzor"
 
 func main() {
 	os.Exit(run(os.Args[1:], os.Stdin, os.Stdout, os.Stderr))
