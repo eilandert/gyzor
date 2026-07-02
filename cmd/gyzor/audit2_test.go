@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/eilandert/gyzor/pyzor"
+	"github.com/myguard-labs/gyzor/pyzor"
 )
 
 // deadClient points at a closed loopback UDP port so Check yields a server

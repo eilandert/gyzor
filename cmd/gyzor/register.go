@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/eilandert/gyzor/pyzor"
+	"github.com/myguard-labs/gyzor/pyzor"
 )
 
 // runGenkey prints a fresh "salt,key" pair in the reference `pyzor genkey`
